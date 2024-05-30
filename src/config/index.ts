@@ -1,20 +1,20 @@
 export const PRODUCT_CATEGORIES = [
     {
-        label: "UI Kits",
+        label: "Frontend",
         value: "ui-kits" as const,
         featured: [
             {
-                name: "Editors Pick",
+                name: "ReactJs",
                 href: "#",
                 imgSrc: "nav/mixed.jpg"
             },
             {
-                name: "Trending",
+                name: "VueJs",
                 href: "#",
                 imgSrc: "nav/mixed.jpg"
             },
             {
-                name: "Newest",
+                name: "AngularJs",
                 href: "#",
                 imgSrc: "nav/mixed.jpg"
             }
@@ -22,21 +22,21 @@ export const PRODUCT_CATEGORIES = [
 
     },
     {
-        label: "Icons",
+        label: "Backend",
         value: "icons" as const,
         featured: [
             {
-                name: "Favorite Icon Picks",
+                name: "NodeJs",
                 href: "#",
                 imgSrc: "nav/mixed.jpg"
             },
             {
-                name: "Trending",
+                name: "Django",
                 href: "#",
                 imgSrc: "nav/mixed.jpg"
             },
             {
-                name: "Newest",
+                name: "Laravel",
                 href: "#",
                 imgSrc: "nav/mixed.jpg"
             }
